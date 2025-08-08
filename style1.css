@@ -1,0 +1,77 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+.footerLinks1 {
+    display: flex;
+    column-gap: 4%;
+    padding: 25px 60px 10px 60px;
+}
+.footerLinks1 div{
+    font-size: 14px;
+    text-transform: uppercase;
+    width: 15%;
+}
+.footerLinks1 div:nth-child(1) {
+    width: 8%;
+}
+.footerLinks1>div>a[href] {
+    color: rgb(204, 204, 127);
+    font-weight: bold;
+}
+.footer {
+    background-color: rgb(43, 40, 40);
+    padding: 50px;
+}
+.footer a[href]{
+    text-decoration: none;
+    color: white;
+}
+.fa-trophy {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+.displayProperty {
+    display: flex;
+    column-gap: 20px;
+    width: 80%;
+    background-color: rgb(172, 98, 241);
+    color: white;
+    margin-bottom: 70px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 5px 10px #888888;
+    margin-bottom: 100px;
+}
+.displayProperty>div {
+    background-color: brown;
+    padding: 30px;
+    margin: 20px;
+    font-weight: bold;
+    border-radius: 12%;
+}
+.displayTitle {
+    color: brown;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    margin: 20px 30px 40px;
+}
+.TutorialLinks {
+    color: white;
+    display: flex;
+    padding: 20px 30px;
+    flex-flow: column wrap;
+    width: 20%;
+    line-height: 15px;
+}
+.TutorialLinks>div
+    font-size: 12px;
+}
+.flexBox {
+    display: flex;
+    column-gap: 80px;
+    padding: 0 100px;
+}
