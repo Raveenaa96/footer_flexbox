@@ -67,7 +67,7 @@ body {
     width: 20%;
     line-height: 15px;
 }
-.TutorialLinks>div
+.TutorialLinks>div {
     font-size: 12px;
 }
 .flexBox {
